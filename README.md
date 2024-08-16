@@ -12,12 +12,14 @@ The software will display the assignment in human-readable form on the standard 
 and it will display a chart of the resulting assignment.
 
 To run the software, any recent Python version with matplotlib in its environment should suffice.
-$ python demcon_planner.py < example_in
+
+        $ python demcon_planner.py < example_in
 
 If you want to have a separate environment and don't have matplotlib installed, please run
-$ conda env create -n demcon-challenge -f ./environment.yaml 
-$ conda activate demcon-challenge
-$ python demcon_planner.py < example_in
+
+        $ conda env create -n demcon-challenge -f ./environment.yaml 
+        $ conda activate demcon-challenge
+        $ python demcon_planner.py < example_in
 
 Since this is a programming puzzle, no robustness is implemented nor has automated testing been done.
 
